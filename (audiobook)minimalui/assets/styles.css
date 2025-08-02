@@ -1,0 +1,45 @@
+body {
+    background: radial-gradient(circle at center, #3e0f63, #000000);
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+    overflow-x: hidden;
+}
+
+h1, h2, label, .gr-textbox label {
+    color: #e0aaff;
+    text-shadow: 0 0 6px #d580ff;
+}
+
+button {
+    background: #8a2be2;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 10px;
+    transition: 0.3s ease;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #7f00ff;
+    box-shadow: 0 0 15px #d580ff;
+}
+
+.gr-textbox textarea {
+    background: #1f1b2e;
+    border: 1px solid #7f00ff;
+    color: white;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.gradio-container {
+    background-color: transparent !important;
+}
+
+.gr-box {
+    border: 2px solid #8338ec;
+    box-shadow: 0 0 20px #6a0dad;
+    border-radius: 15px;
+    padding: 30px;
+}
